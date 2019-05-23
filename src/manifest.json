@@ -1,0 +1,15 @@
+{
+    "name": "Copy Test Cases",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Copy test cases of a problem to clipboard",
+    "background": {
+      "scripts": ["content.js"],
+      "persistent": false
+    },
+    "page_action": {
+      "matches": ["https://atcoder.jp/contests/*"],
+      "default_title": "Copy test cases to clipboard"
+    },
+    "permissions": ["tabs","activeTab"]
+  }
